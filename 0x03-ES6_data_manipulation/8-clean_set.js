@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  if (typeof startString !== 'string') {
+  if (!(set instanceof Set) || typeof startString !== 'string') {
     throw new Error('Inavalid arguments');
   }
   const cleanValues = [];
