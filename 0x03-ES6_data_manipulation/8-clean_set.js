@@ -1,6 +1,6 @@
 export default function cleanSet(set, startString) {
   if (!(set instanceof Set) || typeof startString !== 'string') {
-    throw new Error('Inavalid arguments');
+    throw new Error('Invalid arguments');
   }
   const cleanValues = [];
   for (const value of set) {
