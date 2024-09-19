@@ -1,4 +1,6 @@
-// basics of javascript - nodejs
+/**
+ * basics of javascript - nodejs
+ */
 function displayMessage(message) {
   console.log(message);
 }
